@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pass Variables between Actities</string>
+    <string name="open_display_activity">Open Display Activity</string>
+</resources>
