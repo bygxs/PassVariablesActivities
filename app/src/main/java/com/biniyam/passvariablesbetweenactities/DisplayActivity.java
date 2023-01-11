@@ -13,6 +13,8 @@ public class DisplayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display);
 
+        setTitle("Display Activity");
+
         Intent intent = getIntent();
         String name = intent.getStringExtra(MainActivity.EXTRA_TEXT);
         int password = intent.getIntExtra(MainActivity.EXTRA_NUMBER,0);
